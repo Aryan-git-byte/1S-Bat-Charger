@@ -11,11 +11,11 @@ It is a IP2312 based 1S battery charger that is a 1:1 form factor to the typical
 Anyone can use this simple module in their projects for charging a simple 1S battery.
 
 # Schematic Overview:
-![VIN](Assets\Schematic-vin.png)
+![VIN](Assets/Schematic-vin.png)
 this is the Voltage in part of the module, u can power it from either the type-c port or the terminal by powering it with 5V.
-![Config](Assets\Schematic-Config-Jumpers.png)
+![Config](Assets/Schematic-Config-Jumpers.png)
 this is the CC config part of the schematic which shows 3 jumpers from which u can configure the CC of the module, between 1A, 1.5A and 3A with default being 2.1 A
-![ip2312](Assets\schematic-ip2312.png)
+![ip2312](Assets/schematic-ip2312.png)
 this is the connection of ip2312 along with its peripherals and etc
 ![protection](Assets/scehematic-protection.png)
 this is the part that shows the protection circuit and the output headers
@@ -27,10 +27,10 @@ this is the part that shows the protection circuit and the output headers
 these photos show the routing of the pcb with a qr leading to the repo.
 
 here are some photos of the 2D and 3D render of the PCBs:
-![assets](Assets\PCB-2D-front.png)
-![assets](Assets\PCB-2D-back.png)
-![assets](Assets\PCB-3D-front.png)
-![assets](Assets\PCB-3D-back.png)
+![assets](Assets/PCB-2D-front.png)
+![assets](Assets/PCB-2D-back.png)
+![assets](Assets/PCB-3D-front.png)
+![assets](Assets/PCB-3D-back.png)
 
 # BOM:
 Quartz component (quartzcomponents.com)
