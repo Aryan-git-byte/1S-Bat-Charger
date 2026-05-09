@@ -5,7 +5,15 @@ Yoo, I wanted to make a 1S battery charger that is more efficient and faster tha
 
 ## What even is this??
 It is a IP2312 based 1S battery charger that is a 1:1 form factor to the typical tp4056 module use, it is configurable with the 3 solderable pads near the output terminals, soldering whom changes its charging current from default 2.1A to the selected option. And also it has protections such as overcharge, overdischarge etc
-
+## Why i built this??
+so i am a big fan of that old trusty tp4056 module but its very slow nd inefficient compared to this ip2312 ic, here's a comparison between both of these
+|Feature|TP4056|IP2312|
+|-------|------|------|
+|Type|Buck|Linear|
+|CC|1A|up to 3A|
+|efficiency|70%|90-95%|
+|heat|low|high|
+|built in protection|none|over/under voltage|
 ## Applications:
 
 Anyone can use this simple module in their projects for charging a simple 1S battery.
